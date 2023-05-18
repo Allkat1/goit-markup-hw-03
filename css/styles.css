@@ -11,6 +11,22 @@
   box-sizing: border-box;
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
 :root {
   --primary-text-color: #434455;
   --secondary-color: #ffffff;
@@ -30,7 +46,43 @@ body {
   background-color: var(--secondary-color);
 }
 
+.container {
+  max-width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  /* outline: 2px solid red; */
+}
+
 /* ----------HEADER--------- */
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+}
+
+.list-container {
+  display: flex;
+  align-items: center;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  gap: 40px;
+}
+
+.adress-container {
+  margin-left: auto;
+}
+
+.sub-adress-container {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
 .header {
   font-size: 16px;
   line-height: 1.5;
@@ -45,6 +97,7 @@ body {
   letter-spacing: 0.03em;
   text-decoration: none;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 
 .logo-secondary {
@@ -83,6 +136,12 @@ body {
 /* ----------HERO--------- */
 .hero {
   background-color: var(--navy-blue);
+  padding: 188px;
+}
+
+.hero-container {
+  /* display: block;
+  height: 600px; */
 }
 
 .hero-caption {
@@ -91,7 +150,11 @@ body {
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: var(--secondary-color);
-  text-align: center;
+  display: block;
+  width: 496px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 48px;
 }
 
 /* ----------buttons--------- */
@@ -114,6 +177,8 @@ body {
 .hero-button {
   color: var(--secondary-color);
   background-color: var(--links-text-color);
+  display: block;
+  margin: auto;
 }
 
 /* --------buttons portfolio------- */
@@ -123,11 +188,26 @@ body {
 }
 
 /* ----------GOALS--------- */
+
+.goals-container {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.goals-wrap {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
 .goals {
   font-size: 16px;
   line-height: 1.5;
-
   letter-spacing: 0.02em;
+}
+
+.goal-card {
+  width: calc((100%-72px) / 4);
 }
 .goals-subtitle {
   font-weight: 500;
@@ -138,6 +218,12 @@ body {
 }
 
 /* -------WHAT ARE WE DOING------ */
+.examples-wrap {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
 .sections-title {
   font-size: 36px;
   line-height: 1.11;
@@ -145,6 +231,7 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--navy-blue);
+  margin-bottom: 72px;
 }
 
 .hidden {
@@ -161,6 +248,11 @@ body {
 }
 
 /* ----------OUR TEAM--------- */
+.team-wrap {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
 
 .our-team {
   background-color: var(--cloud-color);
@@ -186,12 +278,26 @@ body {
 }
 /* ----------FOOTER--------- */
 
+.footer-container {
+  padding-top: 100px;
+  padding-bottom: 100;
+}
+
 .footer {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   background-color: var(--navy-blue);
   color: var(--cloud-color);
+}
+
+.footer-logo {
+  margin-bottom: 17.5px;
+}
+
+.footer-text {
+  display: block;
+  width: 264px;
 }
 
 /* ------PAGE 2----- */
