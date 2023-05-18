@@ -136,12 +136,10 @@ body {
 /* ----------HERO--------- */
 .hero {
   background-color: var(--navy-blue);
-  padding: 188px;
 }
 
 .hero-container {
-  /* display: block;
-  height: 600px; */
+  padding: 188px 0;
 }
 
 .hero-caption {
@@ -190,8 +188,7 @@ body {
 /* ----------GOALS--------- */
 
 .goals-container {
-  margin-top: 120px;
-  margin-bottom: 120px;
+  padding: 120px 0;
 }
 
 .goals-wrap {
@@ -222,7 +219,7 @@ body {
   display: flex;
   align-items: center;
   gap: 24px;
-  margin-bottom: 120px;
+  padding-bottom: 120px;
 }
 
 .sections-title {
@@ -255,11 +252,14 @@ body {
   gap: 24px;
 }
 
+.team-container {
+  padding: 120px 0;
+}
+
 .our-team {
   background-color: var(--cloud-color);
   text-align: center;
   letter-spacing: 0.02em;
-  padding: 120px 0;
 }
 
 .team-card {
@@ -301,6 +301,16 @@ body {
 /* ------PAGE 2----- */
 
 /* PROJECTS EXAMPLE */
+.filter-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.examples-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .examples {
   text-decoration: none;
 }
