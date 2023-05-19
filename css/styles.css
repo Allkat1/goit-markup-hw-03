@@ -139,7 +139,7 @@ body {
   color: var(--ocean);
 }
 
-/* ----------HERO--------- */
+/* ----------HERO1--------- */
 .hero {
   background-color: var(--navy-blue);
   padding-top: 188px;
@@ -236,6 +236,9 @@ body {
 }
 
 .example-picture {
+}
+
+.pic-example {
 }
 
 .examples-wrap {
@@ -393,6 +396,6 @@ body {
 
 .port-example-block {
   padding: 32px 16px;
-  border-top: none;
   border: 1px solid var(--border-color);
+  border-top: none;
 }
