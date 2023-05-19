@@ -5,11 +5,11 @@
 /* SLATE rgba(67, 68, 85, 1) body text color*/
 /* cloud-color rgba(244, 244, 253, 1) */
 
-*,
+/* *,
 *::before,
 *::after {
   box-sizing: border-box;
-}
+} */
 
 p,
 h1,
@@ -68,8 +68,6 @@ body {
 .list-container {
   display: flex;
   align-items: center;
-  margin-top: 24px;
-  margin-bottom: 24px;
   gap: 40px;
 }
 
@@ -114,6 +112,8 @@ body {
   letter-spacing: 0.02em;
   color: var(--navy-blue);
   font-style: normal;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .address {
@@ -136,10 +136,11 @@ body {
 /* ----------HERO--------- */
 .hero {
   background-color: var(--navy-blue);
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .hero-container {
-  padding: 188px 0;
 }
 
 .hero-caption {
@@ -163,6 +164,8 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
+  border-radius: 4px;
+  border: none;
 }
 
 .button:hover,
@@ -177,17 +180,21 @@ body {
   background-color: var(--links-text-color);
   display: block;
   margin: auto;
+  width: 169px;
+  height: 56px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 /* --------buttons portfolio------- */
 .portfolio-button {
   background-color: var(--cloud-color);
   color: var(--links-text-color);
+  padding: 12px 24px 12px 24px;
 }
 
 /* ----------GOALS--------- */
 
-.goals-container {
+.goals-section {
   padding: 120px 0;
 }
 
@@ -215,11 +222,14 @@ body {
 }
 
 /* -------WHAT ARE WE DOING------ */
+.examples-list {
+  padding-bottom: 120px;
+}
+
 .examples-wrap {
   display: flex;
   align-items: center;
   gap: 24px;
-  padding-bottom: 120px;
 }
 
 .sections-title {
@@ -246,6 +256,11 @@ body {
 }
 
 /* ----------OUR TEAM--------- */
+.our-team {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 .team-wrap {
   display: flex;
   align-items: center;
@@ -253,7 +268,6 @@ body {
 }
 
 .team-container {
-  padding: 120px 0;
 }
 
 .our-team {
@@ -281,7 +295,6 @@ body {
 /* ----------FOOTER--------- */
 
 .footer-container {
-  padding: 100px 0;
 }
 
 .footer {
@@ -290,12 +303,19 @@ body {
   letter-spacing: 0.02em;
   background-color: var(--navy-blue);
   color: var(--cloud-color);
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.footer .logo {
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-text {
   display: block;
   width: 264px;
-  margin-top: 17.5px;
+  /* margin-top: 16px; */
 }
 
 /* ------PAGE 2----- */
@@ -304,15 +324,23 @@ body {
 .filter-wrap {
   display: flex;
   flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+  padding-bottom: 72px;
+  padding-top: 96px;
 }
 
 .examples-wrap {
   display: flex;
   flex-wrap: wrap;
+  row-gap: 48px;
+  column-gap: 24px;
 }
 
 .examples {
-  text-decoration: none;
+  border: 1px solid #e7e9fc;
+  display: inline-block;
+  padding-bottom: 32px;
 }
 
 .example-title {
@@ -323,6 +351,8 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
+  margin-bottom: 8px;
+  margin-top: 32px;
 }
 
 .example-description {
