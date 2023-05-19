@@ -197,7 +197,7 @@ body {
   background-color: var(--cloud-color);
   color: var(--links-text-color);
   padding: 12px 24px 12px 24px;
-  border: var(--border-color);
+  border: 1px solid var(--border-color);
 }
 
 /* ----------GOALS 2--------- */
