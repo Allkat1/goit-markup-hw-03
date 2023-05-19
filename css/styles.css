@@ -275,6 +275,10 @@ body {
 .team-container {
 }
 
+.worker-container {
+  padding: 32px 16px;
+}
+
 .our-team {
   background-color: var(--cloud-color);
   text-align: center;
