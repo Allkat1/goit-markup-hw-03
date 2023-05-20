@@ -101,6 +101,9 @@ body {
   letter-spacing: 0.03em;
   text-decoration: none;
   text-transform: uppercase;
+  /* margin-right: 76px; */
+}
+.header .logo {
   margin-right: 76px;
 }
 
@@ -118,8 +121,11 @@ body {
   letter-spacing: 0.02em;
   color: var(--navy-blue);
   font-style: normal;
+  display: block;
   padding-top: 24px;
   padding-bottom: 24px;
+}
+.list-container {
 }
 
 .address {
@@ -219,7 +225,7 @@ body {
 }
 
 .goal-card {
-  width: calc((100%-72px) / 4);
+  width: calc((100% - 72px) / 4);
 }
 .goals-subtitle {
   font-weight: 500;
@@ -239,6 +245,7 @@ body {
 }
 
 .pic-example {
+  width: calc((100% -48) / 3);
 }
 
 .examples-wrap {
@@ -299,6 +306,7 @@ body {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
+  width: calc((100% - 96px) / 4);
 }
 
 .worker-name {
@@ -365,8 +373,8 @@ body {
 
 .portf-examples {
   /* border: 1px solid #e7e9fc; */
-  display: inline-block;
-  padding-bottom: 32px;
+  /* display: inline-block; */
+  /* padding-bottom: 32px; */
   width: calc((100% - 48px) / 3);
 }
 
